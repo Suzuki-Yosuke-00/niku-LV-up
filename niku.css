@@ -1,0 +1,132 @@
+.mainTitle {
+  text-align: center; /* 中央揃え */
+}
+
+.title{
+  text-decoration: underline #915e47 4px;
+}
+
+.typeSelectBox {
+  display: flex;
+  background-color: aliceblue;
+  padding: 10px;
+  border-radius:30px;
+}
+  .blueSquare {
+    text-align: center; /* テキストとボタンを中央寄せ */
+    background-color: rgb(68, 255, 0); /*背景色を変える*/
+    width: 250px; /*横幅を変える*/
+    height: 200px; /*縦幅を変える*/
+    margin: 0 auto; /*イイ感じに配置してくれる*/
+    border-radius: 30px; /* 角を丸くする */
+
+    .typeLabel {
+      font-size: 25px; /*フォントサイズを変える*/
+      font-weight: bold; /*文字を太くする*/
+      border-radius:10px;
+      display:inline-block;
+      background-color:aliceblue;
+    }
+    .typeLabel {
+      margin-top: 5px; /* 上マージンを狭める */
+      margin-bottom: 5px; /* 下マージンを狭める */
+    }
+    .typeSelectButton {
+      margin-top: 0; /* ボタンの上マージンをゼロにする */
+      border-radius:10px;
+      background-color:rgba(255, 255, 255, 0)
+    }
+    #toriImage{
+      border-radius: 10px;
+    }
+
+  }
+
+  .pinkSquare {
+    text-align: center; /* テキストとボタンを中央寄せ */
+    background-color: pink;
+    width: 250px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 30px;
+
+    .typeLabel {
+      font-size: 25px;
+      font-weight: bold;
+      border-radius:10px;
+      display: inline-block;
+      background-color:aliceblue;
+    }
+    .typeLabel {
+      margin-top: 5px; 
+      margin-bottom: 5px; 
+    }
+    .typeSelectButton {
+      margin-top: 0; 
+      border-radius:10px;
+      background-color:rgba(255, 255, 255, 0)
+    }
+    #butaImage{
+      border-radius: 10px;
+    }
+  }
+
+  .yellowSquare {
+    text-align: center; 
+    background-color: yellow;
+    width: 250px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 30px; 
+
+    .typeLabel {
+      font-size: 25px;
+      font-weight: bold;
+      border-radius:10px;
+      display: inline-block;
+      background-color:aliceblue;
+    }
+    .typeLabel {
+      margin-top: 5px; 
+      margin-bottom: 5px; 
+    }
+    .typeSelectButton {
+      margin-top: 0; 
+      border-radius:10px;
+      background-color:rgba(255, 255, 255, 0)
+    }
+    #cowImage{
+      border-radius: 10px;
+    }
+  }
+
+.partSelectBox{
+  display: flex;
+  justify-content:space-around;
+  font-size: 25px; 
+  background-color: rgb(155, 178, 162);
+  padding: 20px;
+  border-radius:20px;
+}
+
+.botton{
+  font-size: 25px;
+  font-weight: bold;
+  border-radius:5px;
+}
+
+.nikuimg{
+  display: flex;
+  justify-content:space-around;
+  background-color: rgb(252, 250, 146);
+  padding:10px;
+  border-radius:30px;
+
+    #rawMeatImage{
+      border-radius:30px;
+    }
+    #cookedMeatImage{
+      border-radius:20px;
+    }
+}
+
