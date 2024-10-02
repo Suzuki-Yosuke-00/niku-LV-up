@@ -4,17 +4,54 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  
-  <link rel="stylesheet" href="gators.css">
- 
+  <link rel="stylesheet" href="niku.css">
+  <title>🍗🥩🥓肉レベルを上げるページ🥓🥩🍗</title>
+  <style>
+
+  </style>
 </head>
 
 <body>
-  <div class="greenSquare">
-    <input type="text" id="gatorsNanber"  required  maxlength="3" size="10" />
-    <button id="wanibotton">  ワニ放出</button>
-  </div>
-  <div class="brueSquare"><p></p></div>
-  
+  <h1 class="mainTitle">🍗🥩🥓肉レベルを上げるページ🥓🥩🍗</h1>
+
+  <h2 class="title" >🥚種族を選んでね！🥚</h2>
+
+  <div class="typeSelectBox">
+    <div class="blueSquare">
+      <p class="typeLabel">🐔にわとり🐔</p>
+      <button class="typeSelectButton" type="button"> <img src="img_deta/niwatori.jpg" height ="130" width="130" id="toriImage" /></button>
+      <audio id="toriSound" src="ニワトリの鳴き声3.mp3"> </audio>
+    </div>
+    <div class="pinkSquare">
+      <p class="typeLabel">🐖ぶた🐖</p>
+      <button class="typeSelectButton" type="button"> <img src="img_deta/buta.jpg" height ="130" width="130" id="butaImage" /></button>
+      <audio id="butaSound" src="ブタの鳴き声2.mp3"> </audio>
+    </div>
+    <div class="yellowSquare">
+      <p class="typeLabel">🐄うし🐄</p>
+      <button class="typeSelectButton" type="button"> <img src="img_deta/cow.jpg" height ="130" width="130" id="cowImage" /></button>
+      <audio id="cowSound" src="牛の鳴き声.mp3"> </audio>
+    </div>
+  </div> 
+
+  <h2 class="title">🍖部位を選んでね！🍖</h2>
+
+<div class ="partSelectBox">
+  <div><button class="botton" id="0Botton"> もも </button></div>
+  <div><button class="botton" id="1Botton"> むね</button></div>
+  <div><button class="botton" id="2Botton"> てばさき</button></div>
+  <div><button class="botton" id="3Botton"> セセリ</button></div>
+  <div><button class="botton" id="4Botton"> レバー</button></div>
+</div>
+
+  <h2 class="title">🍽️こんな感じだよ！🍽️</h2>
+    <div class="nikuimg">
+        <img src="img_deta/nikumoji.jpg" width="350" height="350" id="rawMeatImage">
+        <img src="img_deta/nikukuwasero.jpg" width="350" height="350" id="cookedMeatImage">
+    </div>
+
 </body>
 
-<script src="gators.js"></script>
+<!-- <audio controls autoplay src="目玉焼きを焼く.mp3"></audio> -->
+<script src="niku.js"></script>
+
